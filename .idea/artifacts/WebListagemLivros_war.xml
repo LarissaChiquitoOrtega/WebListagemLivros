@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebListagemLivros:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebListagemLivros</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebListagemLivros-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebListagemLivros:war exploded" />
+    </root>
+  </artifact>
+</component>
