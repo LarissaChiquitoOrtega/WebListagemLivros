@@ -51,6 +51,9 @@ public class BookServlet extends HttpServlet {
             case "/delete":
                 doDelete(req, res);
                 break;
+            case "/list":
+                doGet(req, res);
+                break;
             default:
                 super.service(req, res);
         }
